@@ -17,5 +17,5 @@ resource "aws_instance" "my_instance" {
   ami = "ami-0123c9b6bfb7eb962"
   instance_type = "t2.large"
   key_name = "ankita"
-  vpc_security_group_ids = ["sg-084216916be311719"]
+  vpc_security_group_ids = ["sg-043de1fc3acc37e1c"]
 }
