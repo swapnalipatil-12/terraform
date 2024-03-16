@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "my_instance" {
-  ami = "ami-0123c9b6bfb7eb962"
+  ami = "ami-015f72d56355ebc27"
   instance_type = "t2.large"
   key_name = "demo2"
   vpc_security_group_ids = ["sg-043de1fc3acc37e1c"]
